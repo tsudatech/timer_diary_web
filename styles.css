@@ -39,6 +39,39 @@ body {
   height: 70px;
 }
 
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font: inherit;
+  padding: 4px 8px;
+  border-radius: 999px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.lang-btn:hover {
+  background-color: rgba(0, 122, 255, 0.08);
+  color: #007aff;
+}
+
+.lang-btn.active {
+  background-color: #007aff;
+  color: #fff;
+}
+
+.lang-separator {
+  color: #ccc;
+  font-size: 0.8rem;
+}
+
 .nav-logo h1 {
   color: #007aff;
   font-size: 1.5rem;
@@ -226,8 +259,9 @@ section {
 /* Screenshots Section */
 .screenshots-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, minmax(240px, 1fr));
   gap: 2rem;
+  justify-content: center;
 }
 
 .screenshot-item {
@@ -235,8 +269,8 @@ section {
 }
 
 .screenshot-placeholder {
-  width: 200px;
-  height: 400px;
+  width: 360px;
+  height: 720px;
   background-color: #f0f0f0;
   border-radius: 20px;
   margin: 0 auto 1rem;
@@ -517,7 +551,7 @@ section {
   }
 
   .screenshots-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr;
   }
 
   .contact-methods {
