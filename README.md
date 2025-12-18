@@ -1,6 +1,6 @@
-# タイマー日記 - GitHub Pages
+# Timery - GitHub Pages
 
-このフォルダには、タイマー日記アプリの GitHub Pages 用 Web サイトが含まれています。
+このフォルダには、Timery アプリの GitHub Pages 用 Web サイトが含まれています。
 
 ## ファイル構成
 

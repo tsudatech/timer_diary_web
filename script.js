@@ -260,11 +260,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function initI18n() {
     const translations = {
       ja: {
-        page_title: "タイマー日記 - 時間管理アプリ",
+        page_title: "Timery - 時間管理アプリ",
         meta_description:
-          "タイマー日記は、時間の記録と管理を簡単に行えるiOSアプリです。ストップウォッチ機能、タイマー機能、休憩時間の記録など、充実した機能で効率的な時間管理をサポートします。",
+          "Timeryは、時間の記録と管理を簡単に行えるiOSアプリです。ストップウォッチ機能、タイマー機能、休憩時間の記録など、充実した機能で効率的な時間管理をサポートします。",
 
-        app_name: "タイマー日記",
+        app_name: "Timery",
         nav_features: "機能",
         nav_screenshots: "スクリーンショット",
         nav_download: "ダウンロード",
@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function () {
         hero_title_line1: "時間を記録し、",
         hero_title_line2: "効率的に管理する",
         hero_description:
-          "タイマー日記は、あなたの時間を記録し、分析するためのシンプルで使いやすいiOSアプリです。ストップウォッチ、タイマー、休憩時間の記録など、充実した機能で時間管理をサポートします。",
+          "Timeryは、あなたの時間を記録し、分析するためのシンプルで使いやすいiOSアプリです。ストップウォッチ、タイマー、休憩時間の記録など、充実した機能で時間管理をサポートします。",
         hero_download_button: "App Storeでダウンロード",
         hero_features_button: "機能を見る",
 
@@ -310,17 +310,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         download_title: "ダウンロード",
         download_heading: "App Storeで今すぐダウンロード",
-        download_subheading: "iOS 15.0以降に対応しています。",
+        download_subheading: "iOS 17.0以降に対応しています。",
         download_button: "App Storeでダウンロード",
         download_requirements_title: "システム要件",
-        download_requirements_ios: "iOS 15.0以降",
+        download_requirements_ios: "iOS 17.0以降",
         download_requirements_devices: "iPhone、iPad対応",
         download_requirements_price: "無料ダウンロード",
 
         privacy_title: "プライバシーポリシー",
         privacy_handling_heading: "個人情報の取り扱いについて",
         privacy_handling_text:
-          "タイマー日記は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。",
+          "Timeryは、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。",
         privacy_collect_heading: "収集する情報",
         privacy_collect_text: "収集する情報はありません。",
         privacy_storage_heading: "情報の保存",
@@ -345,14 +345,14 @@ document.addEventListener("DOMContentLoaded", function () {
         contact_feature_text:
           "新しい機能のご要望もお待ちしています。ユーザーの皆様の声を大切にしています。",
 
-        footer_copyright: "© 2025 タイマー日記. All rights reserved.",
+        footer_copyright: "© 2025 Timery. All rights reserved.",
       },
       en: {
-        page_title: "Timer Diary - Time Management App",
+        page_title: "Timery - Time Management App",
         meta_description:
-          "Timer Diary is an iOS app that makes it easy to record and manage your time. With features like a stopwatch, timer, and break tracking, it helps you manage your time efficiently.",
+          "Timery is an iOS app that makes it easy to record and manage your time. With features like a stopwatch, timer, and break tracking, it helps you manage your time efficiently.",
 
-        app_name: "Timer Diary",
+        app_name: "Timery",
         nav_features: "Features",
         nav_screenshots: "Screenshots",
         nav_download: "Download",
@@ -362,7 +362,7 @@ document.addEventListener("DOMContentLoaded", function () {
         hero_title_line1: "Record your time,",
         hero_title_line2: "and manage it efficiently",
         hero_description:
-          "Timer Diary is a simple, easy-to-use iOS app for recording and analyzing how you spend your time. With a stopwatch, timer, break tracking, and more, it helps you manage your time efficiently.",
+          "Timery is a simple, easy-to-use iOS app for recording and analyzing how you spend your time. With a stopwatch, timer, break tracking, and more, it helps you manage your time efficiently.",
         hero_download_button: "Download on the App Store",
         hero_features_button: "View features",
 
@@ -409,7 +409,7 @@ document.addEventListener("DOMContentLoaded", function () {
         privacy_title: "Privacy Policy",
         privacy_handling_heading: "Handling of personal information",
         privacy_handling_text:
-          "Timer Diary respects your privacy and strives to protect your personal information.",
+          "Timery respects your privacy and strives to protect your personal information.",
         privacy_collect_heading: "Information we collect",
         privacy_collect_text: "We do not collect any personal information.",
         privacy_storage_heading: "Data storage",
@@ -435,7 +435,7 @@ document.addEventListener("DOMContentLoaded", function () {
         contact_feature_text:
           "We also welcome requests for new features. We value feedback from all our users.",
 
-        footer_copyright: "© 2025 Timer Diary. All rights reserved.",
+        footer_copyright: "© 2025 Timery. All rights reserved.",
       },
     };
 
